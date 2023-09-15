@@ -26,19 +26,29 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fmU-QO-89P">
-                                <rect key="frame" x="76" y="135" width="240" height="128"/>
+                                <rect key="frame" x="35" y="76" width="164" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a9u-qf-8B0">
-                                <rect key="frame" x="76" y="298" width="240" height="128"/>
+                                <rect key="frame" x="174" y="181" width="203" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gIa-Um-fxg">
-                                <rect key="frame" x="76" y="483" width="240" height="128"/>
+                                <rect key="frame" x="35" y="322" width="164" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ORT-C0-qPz">
+                                <rect key="frame" x="135" y="463" width="200" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GEn-YI-Dix">
+                                <rect key="frame" x="35" y="631" width="200" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -48,11 +58,13 @@
                         <outletCollection property="views" destination="fmU-QO-89P" collectionClass="NSMutableArray" id="SKG-MG-FpO"/>
                         <outletCollection property="views" destination="a9u-qf-8B0" collectionClass="NSMutableArray" id="Sab-ds-ruM"/>
                         <outletCollection property="views" destination="gIa-Um-fxg" collectionClass="NSMutableArray" id="GNd-8I-MKy"/>
+                        <outletCollection property="views" destination="ORT-C0-qPz" collectionClass="NSMutableArray" id="14P-J6-Dxx"/>
+                        <outletCollection property="views" destination="GEn-YI-Dix" collectionClass="NSMutableArray" id="IfI-6B-nDA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="4"/>
+            <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
@@ -64,6 +76,9 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

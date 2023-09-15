@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         buttonWasPressed(self)
     }
-    @IBAction func buttonWasPressed(_ sender: Any) {
+    
+    func getRandomColors() -> Set<UIColor> {
         var set = Set<UIColor>()
         while set.count < views.count {
             set.insert(
@@ -28,17 +29,34 @@ class ViewController: UIViewController {
             )
         }
         
+        return set
+    }
+    
+    func getRandomSize() -> CGSize {
+        return CGSize(width: .random(in: 40...240), height: .random(in: 40...240))
+    }
+    
+    func getRandomPoint() -> CGPoint {
+        return CGPoint(x: .random(in: 20...200), y: .random(in: 40...600))
+    }
+    
+    func getRandomRadius() -> CGFloat {
+        return .random(in: 0...25)
+    }
+    
+    @IBAction func buttonWasPressed(_ sender: Any) {
+        var set = getRandomColors()
+        
         let button = sender as? UIButton
         button?.isEnabled = false
         
         for view in views {
             UIView.animate(withDuration: 3.5, animations: {
                 view.backgroundColor = set.popFirst()
-                view.layer.cornerRadius = .random(in: 0...25)
-                view.frame.size = CGSize(width: .random(in: 100...250), height: .random(in: 50...150))
-                view.frame.origin =
-                CGPoint(x: .random(in: 10...100), y: .random(in: 10...600))
-            }) { [weak self] _ in
+                view.layer.cornerRadius = self.getRandomRadius()
+                view.frame.size = self.getRandomSize()
+                view.frame.origin = self.getRandomPoint()
+            }) { _ in
                 button?.isEnabled = true
             }
         }
