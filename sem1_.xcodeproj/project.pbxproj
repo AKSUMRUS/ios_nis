@@ -16,6 +16,7 @@
 		B9164D172AAB91B500ABE64D /* sem1_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D162AAB91B500ABE64D /* sem1_Tests.swift */; };
 		B9164D212AAB91B500ABE64D /* sem1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D202AAB91B500ABE64D /* sem1_UITests.swift */; };
 		B9164D232AAB91B500ABE64D /* sem1_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D222AAB91B500ABE64D /* sem1_UITestsLaunchTests.swift */; };
+		B9164D302AAB91DE00ABE64D /* IOSNis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D2F2AAB91DE00ABE64D /* IOSNis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B9164D1C2AAB91B500ABE64D /* sem1_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sem1_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9164D202AAB91B500ABE64D /* sem1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem1_UITests.swift; sourceTree = "<group>"; };
 		B9164D222AAB91B500ABE64D /* sem1_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem1_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9164D2F2AAB91DE00ABE64D /* IOSNis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B9164D082AAB91B500ABE64D /* Assets.xcassets */,
 				B9164D0A2AAB91B500ABE64D /* LaunchScreen.storyboard */,
 				B9164D0D2AAB91B500ABE64D /* Info.plist */,
+				B9164D2F2AAB91DE00ABE64D /* IOSNis.swift */,
 			);
 			path = sem1_;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9164D302AAB91DE00ABE64D /* IOSNis.swift in Sources */,
 				B9164D042AAB91B300ABE64D /* ViewController.swift in Sources */,
 				B9164D002AAB91B300ABE64D /* AppDelegate.swift in Sources */,
 				B9164D022AAB91B300ABE64D /* SceneDelegate.swift in Sources */,
