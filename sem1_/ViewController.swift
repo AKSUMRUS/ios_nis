@@ -14,32 +14,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        text.text = normalizeGrades().description
+        
+        configureUI()
     }
     
-    func normalizeGrades() -> [String: Double] {
-        var ans: [String: Double] = [:]
-        IOSNis.students = [
-            Student(grades: [3.51, 10, 9], fullName: "Ivan"),
-            Student(grades: [9, 4.5, 2], fullName: "Petr"),
-            Student(grades: [3, 8, 3, 5, 7], fullName: "Pasha"),
-            Student(grades: [10, 10, 10, 9, 9.5], fullName: "Oleg")
-        ]
-        let students = IOSNis.students
+    private func configureUI() {
+        let ourView = UIView()
         
-        var max = 0.0
+        view.addSubview(ourView)
+        ourView.backgroundColor = .systemPink
+        ourView.translatesAutoresizingMaskIntoConstraints = false
         
-        for student in students {
-            if(student.getGrade() > max) {
-                max = student.getGrade()
-            }
-        }
-        
-        for student in students {
-            ans[student.fullName] = student.getGrade()*10/max
-        }
-        
-        return ans
+        ourView.pinCenter(to: view)
+        ourView.pinHeight(to: view)
+        ourView.setWidth(100)
     }
 }
 

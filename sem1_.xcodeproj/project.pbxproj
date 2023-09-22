@@ -17,6 +17,7 @@
 		B9164D212AAB91B500ABE64D /* sem1_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D202AAB91B500ABE64D /* sem1_UITests.swift */; };
 		B9164D232AAB91B500ABE64D /* sem1_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D222AAB91B500ABE64D /* sem1_UITestsLaunchTests.swift */; };
 		B9164D302AAB91DE00ABE64D /* IOSNis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9164D2F2AAB91DE00ABE64D /* IOSNis.swift */; };
+		B9393D3F2ABDFE36002C48B5 /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9393D3E2ABDFE36002C48B5 /* UIView+Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B9164D202AAB91B500ABE64D /* sem1_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem1_UITests.swift; sourceTree = "<group>"; };
 		B9164D222AAB91B500ABE64D /* sem1_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem1_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B9164D2F2AAB91DE00ABE64D /* IOSNis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSNis.swift; sourceTree = "<group>"; };
+		B9393D3E2ABDFE36002C48B5 /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		B9164CF32AAB91B300ABE64D = {
 			isa = PBXGroup;
 			children = (
+				B9393D3E2ABDFE36002C48B5 /* UIView+Pin.swift */,
 				B9164CFE2AAB91B300ABE64D /* sem1_ */,
 				B9164D152AAB91B500ABE64D /* sem1_Tests */,
 				B9164D1F2AAB91B500ABE64D /* sem1_UITests */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9393D3F2ABDFE36002C48B5 /* UIView+Pin.swift in Sources */,
 				B9164D302AAB91DE00ABE64D /* IOSNis.swift in Sources */,
 				B9164D042AAB91B300ABE64D /* ViewController.swift in Sources */,
 				B9164D002AAB91B300ABE64D /* AppDelegate.swift in Sources */,
